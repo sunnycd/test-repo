@@ -4,9 +4,9 @@ test-repo
 This is a test repo.
 add a new branch
 
-pic1            |  pic2
-:-------------------------:|:-------------------------:
-![alt text](raw_img1/11342747.jpg) | ![alt text](raw_img1/11530374.jpg)
+Raw |  Masked | GAN result | Measurement
+:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
+![alt text](results/10790054.jpg) | ![alt text](results/10790054_masked_real_B.png) | ![alt text](results/10790054_masked_fake_B.png)| ![alt text](results/10790054_meas.png)
 
 
 
