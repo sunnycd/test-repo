@@ -6,7 +6,7 @@ add a new branch
 
 Raw |  Masked | GAN result | Measurement
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
-![alt text](results/10790054.jpg) | ![alt text](results/10790054_masked_real_B.png) | ![alt text](results/10790054_masked_fake_B.png)| ![alt text](results/10790054_meas.png)
+![alt text](result/10790054.jpg) | ![alt text](result/10790054_masked_real_B.png) | ![alt text](result/10790054_masked_fake_B.png)| ![alt text](result/10790054_meas.png)
 
 
 
