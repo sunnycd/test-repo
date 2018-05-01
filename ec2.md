@@ -13,6 +13,8 @@ https://us-east-2.console.aws.amazon.com/ec2/v2/home?region=us-east-2#LaunchInst
 
 2. Choose an instance type. Based on your need you can choose CPU or GPU based instance. eg, p2x.large
 
+![alt-text-1](ec2img/step2.jpg)
+
 
 3. Confiuge instance details
    
