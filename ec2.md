@@ -106,3 +106,4 @@ and add following info to ```/etc/fstab``` by vim.
 ```
 sudo chown ec2-user /mnt/data
 ```
+ 
