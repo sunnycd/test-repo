@@ -56,7 +56,7 @@ https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-creating-volume.html
 
 3. Select the instance from the instance text box as shown below.
 
-   Attach EBS volume
+   Attach EBS volume 
 
 4. Now, login to your ec2 instance and list the available disks.
 ```
