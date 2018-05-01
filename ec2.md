@@ -15,7 +15,9 @@ https://us-east-2.console.aws.amazon.com/ec2/v2/home?region=us-east-2#LaunchInst
 
 
 3. Confiuge instance details
+   
    set up vpc as ```vpc-870644ee```
+   
    set up subnet as ```subnet-18c57cb71``` for us-east-2a
 
 4. Add storage or attach volume later 
