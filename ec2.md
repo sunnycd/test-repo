@@ -1,14 +1,15 @@
 ## How to create an EC2 instance
 use 'Deep Learning AMI (Amazon Linux) Version 8.0' as an example
 
-1. Go to AWS EC2 instance homepae
-```
+1. Go to AWS EC2 instance homepage
+
 https://us-east-2.console.aws.amazon.com/ec2/v2/home?region=us-east-2#Home:
-```
+
+
 choose the area (eg, us-east-2a) you want to launch the instance, then click launch and select an instance on the webpage below. I chose 'Deep Learning AMI (Amazon Linux) Version 8.0' for this time.
-```
+ 
 https://us-east-2.console.aws.amazon.com/ec2/v2/home?region=us-east-2#LaunchInstanceWizard:
-```
+ 
 
 2. Choose an instance type. Based on your need you can choose CPU or GPU based instance. eg, p2x.large
 
@@ -30,9 +31,9 @@ https://us-east-2.console.aws.amazon.com/ec2/v2/home?region=us-east-2#LaunchInst
 ## Attach and mount an EBS volume to EC2 linux instance
    
    Create EBS volume, follow the instuction below
-```
+ 
 https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-creating-volume.html
-```
+ 
 1. Head over to EC2 –> Volumes and create a new volume of your preferred size and type.
 
 2. Select the created volume, right click and select the “attach volume” option.
