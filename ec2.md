@@ -13,7 +13,7 @@ https://us-east-2.console.aws.amazon.com/ec2/v2/home?region=us-east-2#LaunchInst
 
 2. Choose an instance type. Based on your need you can choose CPU or GPU based instance. eg, p2x.large
 
-  ![alt-text-1](ec2img/step2.png)
+  ![alt-text-1](ec2img/step2.png){:height="700px" width="400px"}
 
 
 3. Confiuge instance details
@@ -22,22 +22,22 @@ https://us-east-2.console.aws.amazon.com/ec2/v2/home?region=us-east-2#LaunchInst
    
    set up subnet as ```subnet-18c57cb71``` for us-east-2a
    
-   ![alt-text-1](ec2img/step3.png)
+   ![alt-text-1](ec2img/step3.png){:height="700px" width="400px"}
 
 
 4. Add storage or attach volume later 
 
-  ![alt-text-1](ec2img/step4.png)
+  ![alt-text-1](ec2img/step4.png){:height="700px" width="400px"}
 
 
 5. Add tags. Remember to give a name to your instance.
 
-   ![alt-text-1](ec2img/step5.png)
+   ![alt-text-1](ec2img/step5.png){:height="700px" width="400px"}
 
 
 6. Configue security group. Choose the ```Research Development``` group.
 
-    ![alt-text-1](ec2img/step6.png)
+    ![alt-text-1](ec2img/step6.png){:height="700px" width="400px"}
 
 
 7. Review and launch the instance.
