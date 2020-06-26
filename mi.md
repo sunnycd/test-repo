@@ -88,6 +88,29 @@ Listwise approaches can get fairly complex compared to pointwise or pairwise app
 
 [AdaRank on Letor](https://www.microsoft.com/en-us/research/project/letor-learning-rank-information-retrieval/)
 
+## Evaluation Method
+
+NDCG@K will be used for evaluating the preformace of the recommendation system. We will again explore with various relevance scores. The data pulled can identify click through to rate list menu, click throught to review details and bookings.
+
+A single vist can contain multiple searches. The most ideal senerio for evaluation would be given a search capturing all properties interacted with on that search result until a booking is made or another search is preformed. 
+
+For NDCG we will only be looking at sorting positions lower than P which will be a configurable enviorment. For instance given the following search result:
+
+Search Example <br>
+p1: NYCES <br>
+p2: NYCAK <br>
+p3: NYCSM <br>
+p4: NYCTM (BOOKED)<br>
+p5: NYCRI <br>
+p6: NYCMD <br>
+p7: NYCVC <br>
+p8: NYCLT <br>
+p9: NYCMS <br>
+
+If P is 3 we will look at results from p4 to p9. If P is 5 we would look at p6 to p9 and throw out this record for evaluation because the result has no relevant documents.
+
+*** For training we may look at the whole list but for evaluation we will not. <br>
+*** When doing the test training split make sure we have a flag where the top result was shown. We need to make sure out training set takes into account a record may be thown out. 
 
 ## Steps for model training and testing
 
